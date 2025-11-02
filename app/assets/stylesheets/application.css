@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+
+.navbar-wikinimous {
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+
+.navbar-wikinimous .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-wikinimous .navbar-brand img {
+  width: 40px;
+}
+
+hr {
+  width: 100%;
+  max-width: 800px;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
